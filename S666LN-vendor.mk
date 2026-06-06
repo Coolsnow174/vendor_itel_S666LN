@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.trustonic \
+    vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/mt6789/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6789/camerahalserver \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
@@ -834,6 +835,7 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustonic.rc \
+    vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
@@ -1220,6 +1222,8 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Resolution_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Resolution_zoom.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_ShortVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_ShortVideo.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_SuperNight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_SuperNight.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_TikTok_Lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_TikTok_Lite.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_TikTok_Lite_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_TikTok_Lite_zoom.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Video_1080P.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Video_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Video_120fps.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Video_2K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Video_2K.so \
@@ -1782,6 +1786,8 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Resolution_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Resolution_zoom.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_ShortVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_ShortVideo.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_SuperNight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_SuperNight.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_TikTok_Lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_TikTok_Lite.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_TikTok_Lite_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_TikTok_Lite_zoom.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Video_1080P.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Video_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Video_120fps.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Video_2K.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Video_2K.so \
@@ -2636,6 +2642,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.trustonic \
     android.hardware.security.secureclock-service.trustonic \
     android.hardware.security.sharedsecret-service.trustonic \
+    android.hardware.usb@1.2-service-mediatekv2 \
     gnss-mtk \
     gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
