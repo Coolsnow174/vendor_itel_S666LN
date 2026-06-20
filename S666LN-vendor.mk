@@ -900,6 +900,7 @@ PRODUCT_PACKAGES += \
     libtneclient \
     libtrancamJsonConvertor \
     libtrancam_filelockmgr \
+    libtranlog \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
@@ -1390,6 +1391,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.transsion.hardware.trancam.trancamserver@1.0 \
+    vendor.transsion.hardware.tranlog@1.0 \
+    vendor.transsion.hardware.tranlogconfig@1.0 \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
