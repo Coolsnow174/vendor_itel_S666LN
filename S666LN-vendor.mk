@@ -802,7 +802,7 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libforkexecwrap \
-    libformatter \
+    libformatter-v33 \
     libfp_ext_svc2 \
     libged \
     libgf_ca \
@@ -834,6 +834,7 @@ PRODUCT_PACKAGES += \
     libmml \
     libmmprofile \
     libmnetlink_v104 \
+    libmnl-v33 \
     libmsbc_mtk \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -1225,7 +1226,6 @@ PRODUCT_PACKAGES += \
     libitdfacebeauty \
     liblpcnr \
     libmagicsky_64 \
-    libmnl \
     libmorpho_HDSR \
     libmorpho_video_stabilizer \
     libmpbase \
@@ -1536,7 +1536,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libdpframework_so \
     vendor_lib64_libgpudataproducer_so \
-    vendor_lib64_libmnl_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
     vendor_lib64_libneuron_adapter_mgvi_so \
