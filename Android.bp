@@ -9324,6 +9324,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmnl-v33.so",
             ],
             shared_libs: [
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
